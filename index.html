@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js"></script>
 
   <title>Théories du complot</title>
 </head>
@@ -282,25 +283,23 @@
 
       <!--NEWSLETTER-->
 
-      <div class="row">
+      <div class="row no-gutters">
         <div class="col my-newsletter">
-          <form class="form-inline form-inline-footer">
-            <div class="form-group mx-auto p-3">
-              <label for="exampleInputEmail1">Subscribe to our newsletter</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Enter email">
-              <button type="submit" class="btn btn-primary mt-2">Confirm identity</button>
-            </div>
-          </form>
+            <form class="form-inline form-inline-footer">
+                <div class="form-group mx-auto p-3">
+                  <label for="exampleInputEmail1">Subscribe to our newsletter &nbsp;&nbsp;</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <button type="submit" class="btn btn-primary">Subscribe</button>
+                </div>
+            </form>
+          </div>
         </div>
-      </div>
-
-
+      
       <!--LINKS-->
 
-      <div class="row p-3">
+      <div class="row p-3 no-gutters d-flex">
 
-        <div class="col-md-3 col-xs-12">
+        <div class="col-md-3 col-xs-12 mr-md-3 mb-sm-3 mb-md-0">
           <ul class="list-group list-group-flush text-white">
             <li class="list-group-item">ARTICLES</li>
             <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -319,32 +318,59 @@
           </ul>
         </div>
 
-        <div class="col-md-3 col-xs-12">
+        <div class="col-md-3 col-xs-12 mr-md-3 mb-sm-3 mb-md-0">
           <ul class="list-group list-group-flush text-white">
             <li class="list-group-item">LINKS</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Complots du moment</li>
+            <li class="list-group-item">Complots validés</li>
+            <li class="list-group-item">Contact us</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 col-xs-12 mr-md-3 mb-sm-3 mb-md-0">
+          <ul class="list-group list-group-flush text-white">
+            <li class="list-group-item">PARTNERS</li>
+            <li class="list-group-item">Complots du moment</li>
+            <li class="list-group-item">Complots validés</li>
             <li class="list-group-item">Porta ac consectetur ac</li>
             <li class="list-group-item">Vestibulum at eros</li>
           </ul>
         </div>
 
-        <div class="col-md-3 col-xs-12"></div>
+
 
         <!--SOCIAL-->
 
-        <div class="col-md-3 col-xs-12 d-flex">
-          <ul class="my-list ">
-            <li><i class="fab fa-facebook"></i></li>
-            <li><i class="fab fa-twitter"></i></li>
-            <li><i class="fab fa-instagram"></i></li>
-            <li><i class="fas fa-envelope-open"></i></li>
-          </ul>
+        <div class="col-md-2 col-xs-12">
+          <div>
+              <ul class="my-list mx-auto">
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+              </ul>
+          </div>
+
+          <div>
+              <button  onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
+          </div>
+          
         </div>
 
+     
 
         <!--ROW END-->
       </div>
+
+      <div class="row p-3 no-gutters my-copyright">
+           <!--COPYRIGHT-->
+
+      <div class="row no-gutters mx-auto">
+        <div class="col text-white">
+            &copy;Complots faciles            
+        </div>
+      </div>
+  
 
     </footer>
 
