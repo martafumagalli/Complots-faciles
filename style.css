@@ -1,9 +1,0 @@
-/*
-* image carousel
-*/
-
-.carousel-inner img {
-    object-fit: cover;
-    height: 100%;
-}
-
