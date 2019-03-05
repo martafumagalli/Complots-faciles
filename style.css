@@ -1,0 +1,49 @@
+/* FOOTER */
+
+footer {
+    background-color: #2A302C;
+}
+
+.list-group {
+    border-radius: 20px;
+}
+
+.list-group > :first-child {
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #738478;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.list-group > :last-child {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px; 
+}
+
+.list-group-item {
+    background-color: #222222;
+    border: none;
+
+}
+
+.badge-primary {
+    background-color: #738478;
+}
+
+
+.my-list li {
+    display: inline;
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 3rem;
+    padding: 0 5px;
+} 
+
+.my-newsletter {
+    background: #738478;
+}
+
+.form-inline .form-control {
+    width: 100%;
+}
