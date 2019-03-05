@@ -1,12 +1,10 @@
-
-
 /*
 * image carousel
 */
 
-.carousel-inner img {
+header .carousel-inner img {
     object-fit: cover;
-    height: 100%;
+    height: 40em;
 }
 
 /* FOOTER */
