@@ -126,3 +126,24 @@ hr {
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+
+
+@media (max-width: 650px) { /*sur petit écran remplace le display: flex en display: block*/
+    .media  {
+    display: block;
+    }
+}
+
+  @media screen and (max-width: 650px) { /* Sur petit écran la largeur de l'image passe à 100% (au lieu de 50%), elle prend toute la largeur de la div media*/
+    .border-article img  {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+h3 {
+    text-align:center;
+}
+
+
