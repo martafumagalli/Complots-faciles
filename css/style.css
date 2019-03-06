@@ -47,6 +47,7 @@ article .list-group .list-group-item a {
 div .my-date {
     background-color: #738478;
     font-size: 0.8rem;
+    border-radius: 20px;
 }
 
 article div .my-article::first-letter { 
@@ -54,7 +55,7 @@ article div .my-article::first-letter {
     font-weight: bold;
   }
 
-article img {
+.my-article-img img {
     max-height:18%;
 }
 
@@ -65,11 +66,22 @@ article img {
     }
   }
 
-.figure {
-    display: inline;
+article .media img {
+    width: 150px;
+    border-radius: 20px;
 }
 
+.my-autor-social {
+    border-radius: 20px;
+}
 
+article .nav-link {
+   color: #BFC7C1;
+}
+
+article .nav-item .nav-link:hover {
+    color: #222222;
+ }
 
 /* FOOTER */
 
