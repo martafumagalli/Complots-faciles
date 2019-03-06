@@ -101,9 +101,9 @@ hr {
     
 }
 
-/* .form-inline-footer .form-control {
-    width: 100%;
-} */
+.form-inline-footer .form-control {
+    width: 44%;
+}
 
 /* SCROLL UP */
 
