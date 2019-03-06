@@ -9,6 +9,7 @@ nav img {
 /*
 * background
 */
+
 .border-article img {
     width: 50%;
     height: 50%;
@@ -26,6 +27,50 @@ nav img {
     font-size: 5rem;
 }
 
+/* ARTICLE */
+
+article .container {
+    background-color: #BFC7C1;
+    border-radius: 20px;
+}
+
+article .list-group .list-group-item {
+    border: none;
+    background-color: #BFC7C1;
+    color: #222222;
+}
+
+article .list-group .list-group-item a {
+    color: #222222;
+}
+
+div .my-date {
+    background-color: #738478;
+    font-size: 0.8rem;
+}
+
+article div .my-article::first-letter { 
+    font-size: 180%;
+    font-weight: bold;
+  }
+
+article img {
+    max-height:18%;
+}
+
+@media only screen and (max-width: 767px) {
+    article img {
+        width:100%;
+        height: auto;
+    }
+  }
+
+.figure {
+    display: inline;
+}
+
+
+
 /* FOOTER */
 
 footer {
@@ -36,7 +81,7 @@ footer {
     border-radius: 20px;
 }
 
-.list-group > :first-child {
+footer .list-group > :first-child {
     font-weight: bold;
     font-size: 1.5rem;
     background-color: #738478;
@@ -44,12 +89,12 @@ footer {
     border-top-left-radius: 20px;
 }
 
-.list-group > :last-child {
+footer .list-group > :last-child {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px; 
 }
 
-.list-group-item {
+footer .list-group-item {
     background-color: #222222;
     border: none;
 }
