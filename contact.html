@@ -57,31 +57,99 @@
         </header>
         <!-- carousel end -->
         <div class="container form-propos">
-            <!--A propos start-->
+            <!--About us start-->
+            <div id="accordion">
+                <div class="col-lg-6 col-sm-12 mb-2">
+                    <h2>A propos</h2>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link w-100" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                L'équipe
+                            </button>
+                        </h5>
+                    </div>
 
-            <!--A propos end-->
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed w-100" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Notre histoire
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed w-100" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Pourquoi la fin du monde approche ?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--About us end-->
 
             <!-- Formulaire contact start-->
-            <section id="contact" class="row">
+            <div id="contact" class="row">
                 <div class="col-lg">
                     <div class="row">
                         <div class="col-lg-6 col-sm-12">
-                            <h2>Nous contacter</h2>
+                            <h2>Contacter l'ordre illuminati</h2>
                         </div>
                     </div>
                     <form>
                         <div class="row">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Prénom">
+                                <input type="text" class="form-control" placeholder="Prénom" required>
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Nom">
+                                <input type="text" class="form-control" placeholder="Nom" required>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="email"></label>
                             <input type="email" class="form-control" id="email"
-                                placeholder="Indiquez votre adresse mail">
+                                placeholder="Indiquez votre adresse mail" required>
                         </div>
                         <div class="form-group">
                             <label for="adress"></label>
@@ -98,15 +166,17 @@
                         </div>
                         <div class="form-group">
                             <label for="message"></label>
-                            <textarea class="form-control" id="message" rows="6"
-                                placeholder="Votre message"></textarea>
+                            <textarea class="form-control" id="message" rows="6" placeholder="Votre message"
+                                required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-dark mb-4">Envoyer votre formulaire à Dieu notre guide</button>
+                        <button type="submit" class="btn btn-dark mb-4">Envoyer votre formulaire à Dieu notre
+                            guide</button>
                     </form>
                 </div>
-            </section>
+            </div>
         </div>
         </div>
+
         <!-- Formulaire contact end-->
 
         <!--FOOTER-->
