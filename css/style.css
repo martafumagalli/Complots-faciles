@@ -1,3 +1,17 @@
+/*CSS GENERAL*/
+
+*.my-color {
+    background-color: #738478;}
+    
+*.my-light-color {
+    background-color: #bfc7c1;}
+
+*.my-dark-color {
+    background-color: #222222;}
+
+*.my-info-color {
+    background-color: #2A302C;}
+
 /*
 * navbar
 
@@ -83,6 +97,26 @@ article .nav-item .nav-link:hover {
     color: #222222;
  }
 
+.my-comments .media img {
+    width: 80px;
+    border-radius: 20px;
+}
+
+.my-comments button {
+    background: #222222;
+    border: none;
+}
+
+.my-comments button:hover {
+    background: #BFC7C1;
+    color: #222222;
+}
+
+
+article hr {
+    width: 95%;
+}
+
 /* FOOTER */
 
 footer {
@@ -143,19 +177,16 @@ footer .list-group-item {
 }
 
 
- .border-article, .shadow{
-
+.border-article, .shadow {
     margin-right: -2px;
     width: 100%;
     padding: 20px; 
     box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7),
-    -1px 2px 20px rgba(255, 255, 255, 0.6) inset; 
-     
- }
+    -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+}
 
 hr {
     width: 50%;
-    
 }
 
 .form-inline-footer .form-control {
@@ -178,11 +209,11 @@ hr {
     padding: 15px; /* Some padding */
     border-radius: 20px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
-  }
+}
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
-  }
+}
 
 
 @media (max-width: 650px) { /*sur petit écran remplace le display: flex en display: block*/
@@ -191,12 +222,11 @@ hr {
     }
 }
 
-  @media screen and (max-width: 650px) { /* Sur petit écran la largeur de l'image passe à 100% (au lieu de 50%), elle prend toute la largeur de la div media*/
+@media screen and (max-width: 650px) { /* Sur petit écran la largeur de l'image passe à 100% (au lieu de 50%), elle prend toute la largeur de la div media*/
     .border-article img  {
         width: 100%;
         height: 100%;
     }
-
 }
 
 
