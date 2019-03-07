@@ -201,10 +201,51 @@ hr {
 
 
 h3 {
-    text-align:center;
+    text-align:center;   /* Nos partenaires */
 }
 
 /*contact fin du monde*/
 .endOfWorld strong {
     font-weight: bold;
 }
+
+
+/*police Dirty brush*/
+@font-face{
+    font-family: "vintage";
+    src: url("/police/vintage.ttf") format("truetype"); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+nav, header, h2, h3, h4, .font {
+    font-family: "vintage";
+    font-weight: normal;
+    font-size: normal;
+}
+
+
+/*police sourcesanspro */
+@font-face{
+    font-family: "regular";
+    src: url("/police/SourceSansPro-Regular.ttf") format("truetype"); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .font-article, /* font texte article*/ p, h5 {
+    font-family: "regular";
+    font-weight: normal;
+    font-size: normal;
+}
+
+
+.shadow-article{
+
+    margin-right: -2px;
+    width: 100%;
+    padding: 20px; 
+    box-shadow: -1px 2px 6px 2px rgba(0, 0, 0, 0.7),
+    -1px 2px 20px rgba(107, 201, 115, 0.541) inset; 
+     
+ }
