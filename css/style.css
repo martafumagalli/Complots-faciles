@@ -14,15 +14,11 @@
 
 /*
 * navbar
-
-nav img {
-    width: 5%;
-    height: 5%;
+*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
 }
-*/
-/*
-* background
-*/
 
 .border-article img {
     width: 50%;
