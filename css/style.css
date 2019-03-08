@@ -284,3 +284,24 @@ nav, header, h2, h3, h4, .font {
 .nav-link:hover {
     color: white;
 }
+
+.btn-link {
+    font-family: "vintage";
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-link:hover {
+    color: black;
+}
+
+blockquote {
+    border-left : 2px solid #dddddd;
+    padding-left : 10px;
+    font-style: italic; 
+}
+
+.btn-primary, .btn-dark {
+    font-family: "vintage";
+}
