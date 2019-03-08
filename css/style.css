@@ -275,3 +275,12 @@ nav, header, h2, h3, h4, .font {
     -1px 2px 20px rgba(107, 201, 115, 0.541) inset; 
      
  }
+
+ .nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
