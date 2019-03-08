@@ -11,13 +11,16 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.6/jquery.min.js"></script>
   <link rel="stylesheet" href="css/style.css" />
+
   <script src="js/script.js"></script>
 
   <title>Complots faciles</title>
 </head>
 
 <body>
+    
   <header>
     <!-- navbar start-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -63,10 +66,60 @@
     </header>
     <!-- carousel end -->
 
+    <!--CARDS ARTICLES-->
 
-    <!-- Start création des article avec card -->
+    <section class="px-3">
+      <div class="card-group card-group-scroll">
+          <div class="card">
+              <img class="card-img-top" src="pictures/moon-3.png" />
+              <div class="card-body">
+                  <h5 class="card-title">L'alunissage</h5>
+                  <p class="card-text"><small class="text-muted">Personne n'a jamais marché sur la lune</small></p>
+              </div>
+          </div>
+          <div class="card">
+              <img class="card-img-top" src="pictures/comment_2.png" />
+              <div class="card-body">
+                  <h5 class="card-title">WCS dans l'espace</h5>
+                  <p class="card-text"><small class="text-muted">La Wild Code School dans l'espace...</small></p>
+              </div>
+          </div>
+          <div class="card">
+              <img class="card-img-top" src="pictures/trails.png" />
+              <div class="card-body">
+                  <h5 class="card-title">Chemtrails</h5>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+          </div>
+          <div class="card">
+              <img class="card-img-top" src="pictures/mars.png" />
+              <div class="card-body">
+                  <h5 class="card-title">La vie sur mars</h5>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+          </div>
+          <div class="card">
+              <img class="card-img-top" src="pictures/terre.png" />
+              <div class="card-body">
+                  <h5 class="card-title">La Terre est plate</h5>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+          </div>
+          <div class="card">
+              <img class="card-img-top" src="pictures/vimana.png" />
+              <div class="card-body">
+                  <h5 class="card-title">OVNI de l'Antiquité</h5>
+                  <p class="card-text"><small class="text-muted">Vimana, les machines volantes de l'Inde ancienne</small></p>
+              </div>
+          </div>
+        </div>
+    </section>
+      
+    <!--ARTICLE-->
+
     <div class="m-4">
-      <div class="row">
+        <div class="row">
+  
 
     <article  class="col-lg-9 col-xs-12 ">
 
@@ -154,6 +207,7 @@
                   </li>
 
                 </ul>
+
                 <div class="tab-content font-article" id="myTabContent">
                   <div class="tab-pane fade show active" id="auteur" role="tabpanel" aria-labelledby="auteur-tab">
                     <div class="media">
