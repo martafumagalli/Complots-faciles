@@ -20,19 +20,30 @@
     justify-content: space-between;
 }
 
+/* met l'image en background */
+header{
+    height: 25em; 
+    background-image: url("../pictures/carousel-illuminati.jpeg");
+    background-size: cover;
+    padding: 1em 0;
+}
+
+@media (min-width: 1115px) { /*sur grand écran on difie le padding du tire pour qu'il soit au centre*/
+header  {
+    padding: 6em;
+  }
+}
+
+
+
 .border-article img {
     width: 50%;
     height: 50%;
 }
-.background img {
-    object-fit: cover;
-    height: 35em;
-}
 
 .titre-background {
-    position: relative;
+
     text-align: center;
-    bottom: 20rem; 
     color: white;
     font-size: 5rem;
 }
@@ -287,4 +298,44 @@ nav, header, h2, h3, h4, .font {
         flex-basis: 20%;
         margin: 1rem;
     }
+}
+
+
+ /* espace dans les menus de la nav-bar*/
+ .navbar-nav,
+ .mr-auto {
+ flex: 1;
+ margin: auto !important;
+ display: flex;
+ justify-content: space-around;
+ }
+
+ .nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.btn-link {
+    font-family: "vintage";
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-link:hover {
+    color: black;
+}
+
+blockquote {
+    border-left : 2px solid #dddddd;
+    padding-left : 10px;
+    font-style: italic; 
+}
+
+.btn-primary, .btn-dark {
+    font-family: "vintage";
 }
