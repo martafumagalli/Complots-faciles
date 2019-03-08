@@ -287,7 +287,6 @@ nav, header, h2, h3, h4, .font {
      
  }
 
-
  /* espace dans les menus de la nav-bar*/
  .navbar-nav,
  .mr-auto {
@@ -297,3 +296,11 @@ nav, header, h2, h3, h4, .font {
  justify-content: space-around;
  }
 
+ .nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
