@@ -34,8 +34,6 @@ header  {
   }
 }
 
-
-
 .border-article img {
     width: 50%;
     height: 50%;
@@ -45,7 +43,7 @@ header  {
 
     text-align: center;
     color: white;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 /* ARTICLE */
