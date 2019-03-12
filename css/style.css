@@ -269,13 +269,13 @@ nav, header, h2, h3, h4, .font {
     font-family: "regular";
     src: url("/police/SourceSansPro-Regular.ttf") format("truetype"); 
     font-weight: normal;
-    font-style: normal;
+    font-style: auto;
   }
 
   .font-article, /* font texte article*/ p, h5 {
     font-family: "regular";
     font-weight: normal;
-    font-size: normal;
+    font-size: auto;
 }
 
 .shadow-article{
