@@ -25,8 +25,6 @@
     background-color: #2A302C;
 }
 
-
-
 /* met l'image en background */
 header{
     height: 25em; 
@@ -35,7 +33,7 @@ header{
     padding: 1em 0;
 }
 
-@media (min-width: 1115px) { /*sur grand écran on difie le padding du tire pour qu'il soit au centre*/
+@media (min-width: 1115px) { /*sur grand écran on modifie le padding du titre pour qu'il soit au centre*/
 header  {
     padding: 6em;
   }
@@ -54,6 +52,18 @@ header  {
 }
 
 /* ARTICLE */
+
+
+
+
+.my-active {
+    border-color: #738478 !important;
+    background-color: #738478 !important;
+}
+
+.my-list-item:hover {
+    background-color: #bfc7c1 !important;
+}
 
 .my-card .card .card-body{
     background-color: #e1e5e2;
@@ -96,7 +106,9 @@ div .my-date {
 article div .my-article::first-letter { 
     font-size: 180%;
     font-weight: bold;
-  }
+    font-family: "vintage";
+    font-weight: normal;
+}
 
 .my-article-img img {
     max-height:18%;
@@ -230,7 +242,7 @@ hr {
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
+    bottom: 10px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
@@ -241,6 +253,12 @@ hr {
     padding: 15px; /* Some padding */
     border-radius: 20px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
+}
+
+@media screen and (max-width: 750px) {
+#myBtn {
+    bottom: 70px;
+}
 }
   
 #myBtn:hover {
@@ -363,8 +381,61 @@ blockquote {
     font-family: "vintage";
 }
 
+
 #accordion .card-header, #accordion .card-header .active  {
     background-color: #e1e5e2;
+}
+
+
+.overlay{
+    width:100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    top:0;
+    color: #fff;
+    opacity:0;
+    transition: all 0.25s ease-in;
+    text-align:center;
+    padding-top:30%;
+    padding-left:10%;
+    padding-right:10%;
+   
+}
+
+.image:hover{
+    transform: scale(1.25);
+}
+
+.overlay:hover{
+    background: #000;
+    overflow:hidden;
+    opacity:0.8;
+}
+/*card text hidden sur grand écran */
+@media (min-width: 1255px) { 
+    .card-text-hidden{
+        display:none;
+            
+    }
+    .img-width{
+        width:100%;
+        height: 100%;
+    
+    }
+    
+    .item{
+        width:100%;
+        height: 80%;
+        position:relative; 
+    }
+}
+
+/*overlay hidden sur petits écrans */
+@media (max-width: 1254px) { 
+    .overlay{
+        display:none;}     
+
 }
 
 .carousel-control-prev,
@@ -373,8 +444,37 @@ blockquote {
   width: 7%;
 }
 
-.carousel-control-prev:hover, .carousel-control-prev:focus,
-.carousel-control-next:hover,
-.carousel-control-next:focus {
+.btn-light {
+    color: #ffffff;
+    background-color: #738478 !important;
+    border-color:   #738478 !important;
+  }
+
+.btn-light:hover {
+    color: #222222;
+    background-color: #bfc7c1 !important;
+    border-color:   #bfc7c1 !important;
+}
+
+  
+.btn-primary:hover {
+    color: #fff;
+    background-color: #738478 !important;
+    border-color: #738478 !important;
+}
+
+button .my-sou:hover {
+    color: #222222 !important;
+    background-color: #bfc7c1 !important;
+    border-color: #738478 !important;
+}
+  
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(115, 132, 120, 0.5) !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
   opacity: 0;
+  width: 7% !important;
 }
