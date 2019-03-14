@@ -431,18 +431,13 @@ blockquote {
 @media (max-width: 1254px) { 
     .overlay{
         display:none;}     
-    }
+
 }
+
 .carousel-control-prev,
 .carousel-control-next {
   opacity: 0;
   width: 7%;
-}
-
-.carousel-control-prev:hover, .carousel-control-prev:focus,
-.carousel-control-next:hover,
-.carousel-control-next:focus {
-  opacity: 0;
 }
 
 .btn-light {
@@ -472,4 +467,10 @@ button .my-sou:hover {
   
 .btn-primary:focus, .btn-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(115, 132, 120, 0.5) !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 0;
+  width: 7% !important;
 }
