@@ -370,6 +370,7 @@ blockquote {
 .carousel-control-prev,
 .carousel-control-next {
   opacity: 0;
+  width: 7%;
 }
 
 .carousel-control-prev:hover, .carousel-control-prev:focus,
