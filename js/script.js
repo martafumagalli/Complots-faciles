@@ -15,21 +15,44 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 };
 
+
+
+
+
 // MODAL
 
-window.onload = setTimeout(function(){ 
+function memory() {
+  var visited = sessionStorage['visited'];
+  if (!visited) {
+     myModal();
+     sessionStorage['visited'] = true;
+  }
 
-  // const modalOuvert = document.getElementById('open-modal');
-  const modalModal = document.getElementById('modal');
-  const modalFerme = document.getElementById('close-modal');
-  
+  function myModal(){
+    // const modalOuvert = document.getElementById('open-modal');
+    const modalModal = document.getElementById('modal');
+    const modalBody = document.getElementById('body');
+    const modalFerme = document.getElementById('close-modal');
+    const modalExtend = document.getElementById('extend-modal');
+    var para = document.createElement("P");
+
+    
     modalModal.style.display = "block";
-
+    modalBody.style.opacity = "0.7";
+      
+    
     modalFerme.onclick = function() {
     modalModal.style.display = "none";
-   }
-  
-  },2000);
+    modalBody.style.opacity = "1";
+    }
+
+    modalExtend.onclick = function() {
+    document.getElementById("modal").innerHTML = '<div class="modal-inner content center"><h2>Congrats!</h2><p>    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, dolorem maiores sunt dolore voluptas asperiores aliquam debitis mollitia vitae harum repudiandae voluptatem exercitationem fuga necessitatibus porro, placeat eos recusandae? Nostrum.</p><button id="close-modal">CLOSE</button></div>';
+  }
+};
+}
+
+window.onload = setTimeout(memory,3000);
 
 
-   
+
