@@ -394,3 +394,32 @@ blockquote {
 .carousel-control-next:focus {
   opacity: 0;
 }
+
+.btn-light {
+    color: #ffffff;
+    background-color: #738478 !important;
+    border-color:   #738478 !important;
+  }
+
+.btn-light:hover {
+    color: #222222;
+    background-color: #bfc7c1 !important;
+    border-color:   #bfc7c1 !important;
+}
+
+  
+.btn-primary:hover {
+    color: #fff;
+    background-color: #738478 !important;
+    border-color: #738478 !important;
+}
+
+button .my-sou:hover {
+    color: #222222 !important;
+    background-color: #bfc7c1 !important;
+    border-color: #738478 !important;
+}
+  
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(115, 132, 120, 0.5) !important;
+}
