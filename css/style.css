@@ -401,6 +401,10 @@ blockquote {
    
 }
 
+.image:hover{
+    transform: scale(1.25);
+}
+
 .overlay:hover{
     background: #000;
     overflow:hidden;
