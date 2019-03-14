@@ -13,7 +13,27 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-$(window).load(function(){        
-  $('#myModal').modal('show');
-   }); 
+};
+ 
+
+
+// MODAL
+
+window.onload = setTimeout(function(){ 
+
+  // const modalOuvert = document.getElementById('open-modal');
+  const modalModal = document.getElementById('modal');
+  // const modalFerme = document.getElementById('close-modal');
+  
+  
+    modalModal.style.display = "block";
+  
+  
+  // modalFerme.onclick = function() {
+  //   modalModal.style.display = "none";
+  // }
+  
+  },3000);
+
+
+   
