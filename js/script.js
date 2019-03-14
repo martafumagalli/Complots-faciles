@@ -14,8 +14,6 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 };
- 
-
 
 // MODAL
 
@@ -23,17 +21,15 @@ window.onload = setTimeout(function(){
 
   // const modalOuvert = document.getElementById('open-modal');
   const modalModal = document.getElementById('modal');
-  // const modalFerme = document.getElementById('close-modal');
-  
+  const modalFerme = document.getElementById('close-modal');
   
     modalModal.style.display = "block";
+
+    modalFerme.onclick = function() {
+    modalModal.style.display = "none";
+   }
   
-  
-  // modalFerme.onclick = function() {
-  //   modalModal.style.display = "none";
-  // }
-  
-  },3000);
+  },2000);
 
 
    
