@@ -295,7 +295,7 @@ h3 {
 /*police Dirty brush*/
 @font-face{
     font-family: "vintage";
-    src: url("/police/vintage.ttf") format("truetype"); 
+    src: url("police/vintage.ttf") format("truetype"); 
     font-weight: normal;
     font-style: normal;
   }
@@ -310,7 +310,7 @@ nav, header, h2, h3, h4, .font {
 /*police sourcesanspro */
 @font-face{
     font-family: "regular";
-    src: url("/police/SourceSansPro-Regular.ttf") format("truetype"); 
+    src: url("police/SourceSansPro-Regular.ttf") format("truetype"); 
     font-weight: normal;
     font-style: auto;
   }
