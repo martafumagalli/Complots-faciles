@@ -42,22 +42,33 @@ function memory() {
       
     
     modalFerme.onclick = function() {
-    modalModal.style.display = "none";
-    modalBody.style.opacity = "1";
+      document.getElementById("modal").innerHTML = '<div id ="modal-inner" class="modal-inner content center"><h2>Le christ cosmique te souhaite la bienvenue!</h2><img class="petit" src="https://makesylvaingreatagain.files.wordpress.com/2017/03/cropped-sylvain4prez.jpg" style=" width:100px height:100px"> <br><br><button id="modal-inner">Bienvenue mon ami !</button></div>';
+      const modalInner = document.getElementById('modal-inner');
+  
+  
+      modalInner.onclick = function() {
+        modalModal.style.display = "none";
+        modalBody.style.opacity = "1";
+        
+        }
+
+
     }
 
     modalExtend.onclick = function() {
     document.getElementById("modal").innerHTML = '<div class="modal-inner content center"><h2>Que le christ cosmique te pardonne</h2><p>NOUS NE VOULONS PAS DE REPTILIENS HUMANOIDES</p><br><br><button id="modal-inner">Dégage !</button></div>';
     const modalInner = document.getElementById('modal-inner');
+    
 
     modalInner.onclick = function() {
       modalModal.style.display = "none";
       modalBody.style.opacity = "1";
       window.open('https://media.giphy.com/media/l2Je3fAJ02BkvLYEE/giphy.gif');
       }
+    }
   }
-};
 }
+
 
 window.onload = setTimeout(memory,1000);
 

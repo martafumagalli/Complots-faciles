@@ -525,3 +525,10 @@ button {
 }
 
 /*END MODAL*/
+
+/* image qui rentre dans le modal*/
+
+.petit{
+    height: 350px;
+    width:750px;
+}
