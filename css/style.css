@@ -72,7 +72,9 @@ header  {
 
 article .container {
     background-color: #bfc7c1;
-    border-radius: 20px;
+    border-radius: 2px;
+    margin:12px;
+
 }
 
 article .list-group .list-group-item {
@@ -404,7 +406,7 @@ blockquote {
 }
 
 .image:hover{
-    transform: scale(1.25);
+    transform: scale(1.15);
 }
 
 .overlay:hover{
