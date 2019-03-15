@@ -47,19 +47,20 @@ function memory() {
     }
 
     modalExtend.onclick = function() {
-    document.getElementById("modal").innerHTML = '<div class="modal-inner content center"><h2>Congrats!</h2><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, dolorem maiores sunt dolore voluptas asperiores aliquam debitis mollitia vitae harum repudiandae voluptatem exercitationem fuga necessitatibus porro, placeat eos recusandae? Nostrum.<br><br><button id="modal-inner">LEAVE</button></div>';
+    document.getElementById("modal").innerHTML = '<div class="modal-inner content center"><h2>Que le christ cosmique te pardonne</h2><p>NOUS NE VOULONS PAS DE REPTILIENS HUMANOIDES</p><br><br><button id="modal-inner">LEAVE</button></div>';
     const modalInner = document.getElementById('modal-inner');
 
     modalInner.onclick = function() {
       modalModal.style.display = "none";
       modalBody.style.opacity = "1";
+      window.open('https://media0.giphy.com/media/l2Je3fAJ02BkvLYEE/giphy.gif?cid=3640f6095c8b683b59485565552f3dcf');
       }
   }
 };
 }
 
 
-window.onload = setTimeout(memory,3000);
+window.onload = setTimeout(memory,1000);
 
 
 
