@@ -17,3 +17,7 @@ function topFunction() {
 $(window).load(function(){        
   $('#myModal').modal('show');
    }); 
+
+   
+
+
