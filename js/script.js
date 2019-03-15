@@ -34,7 +34,6 @@ function memory() {
     const modalBody = document.getElementById('body');
     const modalFerme = document.getElementById('close-modal');
     const modalExtend = document.getElementById('extend-modal');
-    
 
     
     modalModal.style.display = "block";
@@ -51,14 +50,13 @@ function memory() {
     const modalInner = document.getElementById('modal-inner');
 
     modalInner.onclick = function() {
-      modalModal.style.display = "none";
-      modalBody.style.opacity = "1";
-      window.open('https://media.giphy.com/media/l2Je3fAJ02BkvLYEE/giphy.gif');
-      }
+    modalModal.style.display = "none";
+    modalBody.style.opacity = "1";
+    window.open('https://media.giphy.com/media/l2Je3fAJ02BkvLYEE/giphy.gif');
+    }
   }
-};
 }
-
+};
 
 window.onload = setTimeout(memory,1000);
 
