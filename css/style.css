@@ -503,6 +503,7 @@ button .my-sou:hover {
 
 button {
   padding: 10px 20px;
+  margin: 10px;
   background: #738478;
   color: #fff;
   border: transparent;
