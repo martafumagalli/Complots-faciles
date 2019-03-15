@@ -22,11 +22,11 @@ function topFunction() {
 // MODAL
 
 function memory() {
-  var visited = sessionStorage['visited'];
-  if (!visited) {
+  // var visited = sessionStorage['visited'];
+  // if (!visited) {
      myModal();
-     sessionStorage['visited'] = true;
-  }
+  //    sessionStorage['visited'] = true;
+  // }
 
   function myModal(){
     // const modalOuvert = document.getElementById('open-modal');
@@ -34,7 +34,7 @@ function memory() {
     const modalBody = document.getElementById('body');
     const modalFerme = document.getElementById('close-modal');
     const modalExtend = document.getElementById('extend-modal');
-    var para = document.createElement("P");
+    
 
     
     modalModal.style.display = "block";
@@ -47,12 +47,21 @@ function memory() {
     }
 
     modalExtend.onclick = function() {
-    document.getElementById("modal").innerHTML = '<div class="modal-inner content center"><h2>Congrats!</h2><p>    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, dolorem maiores sunt dolore voluptas asperiores aliquam debitis mollitia vitae harum repudiandae voluptatem exercitationem fuga necessitatibus porro, placeat eos recusandae? Nostrum.</p><button id="close-modal">CLOSE</button></div>';
+    document.getElementById("modal").innerHTML = '<div class="modal-inner content center"><h2>Congrats!</h2><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, dolorem maiores sunt dolore voluptas asperiores aliquam debitis mollitia vitae harum repudiandae voluptatem exercitationem fuga necessitatibus porro, placeat eos recusandae? Nostrum.<br><br><button id="modal-inner">LEAVE</button></div>';
+    const modalInner = document.getElementById('modal-inner');
+
+    modalInner.onclick = function() {
+      modalModal.style.display = "none";
+      modalBody.style.opacity = "1";
+      }
   }
 };
 }
 
+
 window.onload = setTimeout(memory,3000);
+
+
 
 
 
