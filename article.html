@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.6/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+
+
+
+  <title>Complots faciles</title>
+</head>
+
+
+
+
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<body>
+  <!-- navbar start-->
+  <nav class="navbar navbar-expand-lg navbar-dark py-3">
+    <a class="navbar-brand brand-name" href="index.2.html"><img src="pictures/logo1.png" width="100" height="80"
+        class="d-inline-block align-top" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link h4 mt-2 dropdown-toggle" href="article.html" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Choisis ton complot
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="article.html">L'espace : et puis quoi encore ?</a>
+            <a class="dropdown-item" href="#">Les assasinats : vrai ou faux ?</a>
+            <a class="dropdown-item" href="#">Qui dirige le monde ?</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h4 mt-2" href="#complotsValides">Complots validés par les illuminatis reptiliens</a>
+        </li>
+        <li class="nav-item h4 mt-2">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline mx-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Rechercher complot" aria-label="Search">
+        <button class="btn btn-light my-2 my-sm-0" type="submit">Rechercher</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- navbar end -->
+  <!-- carousel start -->
+  <header>
+
+    <h1 class="titre-background">Complots du moments sur l'espace pour briller en&nbsp;société</h1>
+
+
+  </header>
+
+  <section onload="codeAddress();">
+    <div class="modal" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- carousel end -->
+
+
+  <!--CARDS SLIDER MOBILE-->
+
+  <section class="m-3 mt-4 d-lg-none">
+    <h2 class="mx-4 my-3" id="espace">Tous les articles concernent l'espace</h2>
+
+    <div class="list-group list-group-flush p-3">
+      <a href="article.html#lune" class="list-group-item list-group-item-action active my-active">
+        L'alunissage
+      </a>
+      <a href="article2.html#wcs" class="list-group-item list-group-item-action my-list-item">WCS dans l'espace</a>
+      <a href="#" class="list-group-item list-group-item-action my-list-item">Les OVNI de l'antiquité</a>
+      <a href="#" class="list-group-item list-group-item-action my-list-item">La vie sur mars</a>
+      <a href="#" class="list-group-item list-group-item-action my-list-item">Problème false flag</a>
+      <a href="#" class="list-group-item list-group-item-action my-list-item">Une voix de l'espace</a>
+      <a href="#" class="list-group-item list-group-item-action my-list-item">Chemtrails</a>
+      <a href="#" class="list-group-item list-group-item-action my-list-item">Mystère dans les cieux</a>
+    </div>
+
+  </section>
+
+
+  <!--CARDS SLIDER DESKTOP-->
+
+  <section class="m-3 mt-4 d-none d-lg-block">
+    <h2 class="mx-4 my-3" id="espace">Tous les articles concernent l'espace</h2>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card-group card-group-scroll my-card">
+                  <div class="card shadow">
+                    <div class="item image">
+                      <a href="article.html#lune"><img class="card-img-top img-width" src="pictures/moon-3.png" alt=""/></a>
+                      <a href="article.html#lune"><div class="overlay">
+                       <h5 class="textCenter">"La lune c'est jolie" -Neil Armstrong<br>Personne n'a jamais marché sur la lune</h5>
+                      </div></a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">L'alunissage</h5>
+                      <p class="card-text card-text-hidden"><small class="text-muted">Vimana, les machines volantes de l'Inde</small></p>
+                    </div>
+                  </div>
+                  <div class="card shadow">
+                    <div class="item image">
+                        <a href="article2.html#wcs"><img class="card-img-top img-width" src="pictures/wcs.jpg" alt=""/></a>
+                        <a href="article2.html#wcs"><div class="overlay">
+                          <h5 class="textCenter">La Wild Code School dans l'espace... On arrête pas les conneries...</h5>
+                        </div></a>
+                      </div>
+                    <div class="card-body">
+                      <h5 class="card-title">WCS dans l'espace</h5>
+                      <p class="card-text card-text-hidden"><small class="text-muted">Vimana, les machines volantes de l'Inde</small></p>
+                    </div>
+                  </div>
+                    <div class="card shadow">
+                        <div class="item image">
+                            <img class="card-img-top img-width" src="pictures/vimana.png" alt=""/>
+                            <div class="overlay">
+                              <h5 class="textCenter">Vimana, les machines volantes de l'Inde</h5>
+                              <p class="card-text card-text-hidden"><small class="text-muted">Vimana, les machines volantes de l'Inde</small></p>
+                            </div>
+                          </div>
+                      
+                      <div class="card-body">
+                        <h5 class="card-title">Les OVNI de l'antiquité</h5>
+                        <p class="card-text card-text-hidden"><small class="text-muted">Vimana, les machines volantes de l'Inde</small></p>
+                      </div>
+                    </div>
+                    <div class="card shadow">
+                        <div class="item image">
+                            <img class="card-img-top img-width" src="pictures/mars.png" alt=""/>
+                            <div class="overlay">
+                              <h5 class="textCenter">"Personne n'a jamais marché sur la lune</h5>
+                            </div>
+                          </div>
+                        
+                        <div class="card-body">
+                          <h5 class="card-title">La vie sur mars</h5>
+                          <p class="card-text card-text-hidden"><small class="text-muted">Personne n'a jamais marché sur la lune</small></p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            
+            <div class="carousel-item">
+                <div class="card-group card-group-scroll my-card">
+                    <div class="card shadow">
+                        <div class="item image">
+                            <img class="card-img-top img-width" src="pictures/ufo.jpg" alt=""/>
+                            <div class="overlay">
+                              <h5 class="textCenter">Personne n'a jamais marché sur la lune</h5>
+                            </div>
+                          </div>
+                      
+                      <div class="card-body">
+                        <h5 class="card-title">Problème false flag</h5>
+                        <p class="card-text card-text-hidden"><small class="text-muted">Personne n'a jamais marché sur la lune</small></p>
+                      </div>
+                    </div>
+                    <div class="card shadow">
+                        <div class="item image">
+                            <img class="card-img-top img-width" src="pictures/space.jpg" alt=""/>
+                            <div class="overlay">
+                              <h5 class="textCenter">La Wild Code School dans l'espace..</h5>
+                            </div>
+                          </div>
+                      
+                      <div class="card-body">
+                        <h5 class="card-title">Une voix de l'espace</h5>
+                        <p class="card-text card-text-hidden"><small class="text-muted">La Wild Code School dans l'espace...</small></p>
+                      </div>
+                    </div>
+                    <div class="card shadow">
+                        <div class="item image">
+                            <img class="card-img-top img-width" src="pictures/trails.png" alt=""/>
+                            <div class="overlay">
+                              <h5 class="textCenter">"Last updated 3 mins ago</h5>
+                            </div>
+                          </div>
+                      
+                      <div class="card-body">
+                        <h5 class="card-title">Chemtrails</h5>
+                        <p class="card-text card-text-hidden"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card shadow">
+                        <div class="item image">
+                            <img class="card-img-top img-width" src="pictures/pilot.jpg" alt=""/>
+                            <div class="overlay">
+                              <h5 class="textCenter">Personne n'a jamais marché sur la lune</h5>
+                            </div>
+                          </div>
+                        
+                        <div class="card-body">
+                          <h5 class="card-title">Mystère dans les cieux</h5>
+                          <p class="card-text card-text-hidden"><small class="text-muted">Personne n'a jamais marché sur la lune</small></p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+          </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+
+
+  <!--ARTICLE-->
+
+  <div class="m-4">
+    <div class="row">
+
+
+      <article class="col-lg-9 col-xs-12" id="lune">
+
+
+        <div class="container shadow-article">
+          <div class="row px-4">
+            <div class="pl-4 pt-4 font-weight-bold mt-4">
+              <h2 class="h1">Personne n'a jamais marché sur la lune</h2>
+              <h3 class="text-left font-article h4">Pourquoi les gens continuent de penser que l'homme a marché sur la
+                lune ?</h3>
+            </div>
+          </div>
+
+          <div class="row mt-4">
+            <div class="col-md-9 pl-4 font-article d-none d-md-block">
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item"><a href="#auteur" about="_blank"><i class="fas fa-user pr-1"></i>Le christ
+                    Cosmique</a>
+                </li>
+                <li class="list-group-item"><a href="#espace" about="_blank"><i
+                      class="fas fa-folder-open pr-1"></i>Complots sur l'espace</a></li>
+                <li class="list-group-item"><a href="#commentaires" about="_blank"><i
+                      class="fas fa-comments pr-1"></i>666
+                    commentaires</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <div class="ml-auto mr-xs-0 mr-lg-4 my-date text-center mt-2 py-2">
+                <div class="font-weight-bold">1er janvier de l'an 0</div>
+              </div>
+            </div>
+          </div>
+
+          <!--ARTICLE BODY-->
+
+          <div class="row">
+            <div class="col m-4 my-article font-article">
+              <img src="pictures/moon-1.jpg" class="img-fluid float-left pr-0 py-3" alt="">
+              <p>Pas moins de 100 pour cent des terriens de la terre plate estiment que l'homme n'a jamais marché
+                sur la Lune et que l'état américain a mis en scène les alunissages des années 60 dans un
+                studio de télévision. D'après certaines rumeurs persistantes, Stanley Kubrick aurait filmé les
+                débarquements sur la Lune à Hollywood.<img src="pictures/moon-2.png"
+                  class="img-fluid float-right py-3 pl-0 pl-md-4 w-35" alt="">
+                Comment un drapeau peut-il flotter sans vent? D'où viennent les sources de lumière sur les photos
+                de l'alunissage et quel est l'objet mystérieux qui se reflète dans le casque de l'un des astronautes ?
+                Voici les dix arguments pour soutenir leur théorie du complot.</p>
+              <h4>1. Le drapeau flottant</h4>
+              <p>Le premier drapeau flottait sur la Lune lors de la retransmission télévisée.
+                C'est impossible étant donné qu'il n'y a pas d'air dans l'atmosphère de la Lune et donc pas de vent non
+                plus.
+                L'explication de la NASA: Selon la NASA, le drapeau était conservé dans un tube
+                étroit et le flottement a été provoqué par le déploiement du textile. Les astronautes ont
+                également pu faire bouger le drapeau en exerçant une pression sur le mât.</p>
+              <h4>2. Le meme arriere-plan a différents endroits</h4>
+              <p>Deux photos de la mission Apollo 15 ont le même arrière-plan bien qu'elles aient été prises à des
+                kilomètres de distance. Il est certain que le même décor de studio a été utilisé deux fois.
+
+                L'explication de la NASA: la Lune est beaucoup plus petite que la Terre. C'est pourquoi
+                l'horizon semble plus proche à l'oeil humain.</p>
+              <h4>3. La lettre C sur une pierre de lune</h4>
+              <p>On voit clairement la lettre C sur plusieurs photos. Le studio a oublié de tourner la pierre de façon à
+                ce que la lettre reste hors champ.
+                L'explication de la NASA: Soit quelqu'un a ajouté la lettre C sur la photo par après, soit un cheveu est
+                resté collé lors du développement de la photo.</p>
+              <h4>4. Pas d'etoiles</h4>
+              <p>On ne voit pas d'étoiles sur les photos de l'alunissage. Comme il n'y a pas de nuages autour de la
+                Lune, c'est extrêmement curieux.
+                L'explication de la NASA: La qualité des photos n'est pas assez bonne pour y voir les étoiles.</p>
+              <h4>5. L'objet inexpliqué</h4>
+              <p>On voit un objet inexpliqué dans le casque d'un astronaute. Les critiques suggèrent qu'il pourrait
+                s'agir d'une lampe de studio.
+                L'explication de la NASA: Il n'y a pas d'explication. La similitude avec une lampe de studio ou
+                n'importe quel objet est d'ailleurs contestable.</p>
+              <h4>6. Plusieurs sources de lumiere</h4>
+              <p> Sur plusieurs photos, on voit que les ombres sont orientées vers différents sens, ce qui est étrange,
+                car le soleil est la seule source de lumière de la Lune. Toutes les ombres doivent donc s'orienter dans
+                le même sens, à moins qu'elles ne proviennent de lampes de studio, bien entendu.
+                L'explication de la NASA: Le paysage accidenté pourrait causer les ombres irrégulières.</p>
+              <h4>7. Le manque d'impact</h4>
+              <p>Si la NASA avait vraiment aluni, il y aurait eu un grand cratère d'impact formé sous le module.
+                Celui-ci ne se voit sur aucune photo.
+                L'explication de la NASA: l'absence de cratère est due à la pesanteur beaucoup plus faible et au fait
+                que la surface de la Lune est composée essentiellement de roches très dures.</p>
+              <h4>8. La ceinture de radiations de Van Allen</h4>
+              <p>Les astronautes (même pourvus de couches de protection en aluminium) auraient été "bouillis" par
+                la ceinture de radiations de Van Allen qui se trouve entre la terre et la lune et qui est
+                maintenue par le champ magnétique de la terre.
+                L'explication de la NASA: La traversée de cette ceinture de radiations se passe si rapidement qu'on
+                n'absorbe que très peu de rayons.</p>
+              <h4>9. Mouvements en slow motion et cables cachés</h4>
+              <p>Si on accélère 2,5 fois les images filmées de l'alunissage, les astronautes bougent au rythme de
+                l'attraction terrestre. Leurs grands sauts sur la Lune auraient été réalisés avec des câbles
+                invisibles comme on le fait aujourd'hui pour les cascades dans les films.
+
+                L'explication de la NASA: la NASA n'a pas réagi, elle trouve cette critique sans doute vraiment trop
+                absurde.</p>
+              <h4>10. Les croix de focalisation</h4>
+              <p>On voit des croix de marquage utilisées par les appareils photo sur plusieurs photos. Certaines de ces
+                croix se trouvent entre des objets placés sur le premier plan et sur l'arrière-plan, ce qui signifie que
+                les photos ont été manipulées.
+
+                L'explication de la NASA: Ici non plus la NASA ne réagit pas. On peut se demander pourquoi la NASA
+                utiliserait ces croix si elle avait l'intention de manipuler les photos. </p>
+            </div>
+          </div>
+
+          <div class="col card text-center py-3 my-autor">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="auteur-tab" data-toggle="tab" href="#auteur" role="tab"
+                  aria-controls="auteur" aria-selected="true">Auteur</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="articles-tab" data-toggle="tab" href="#articles" role="tab"
+                  aria-controls="articles" aria-selected="false">Derniers articles</a>
+              </li>
+            </ul>
+
+            <div class="tab-content font-article" id="myTabContent">
+              <div class="tab-pane fade show active" id="auteur" role="tabpanel" aria-labelledby="auteur-tab">
+                <div class="media">
+                  <img class="m-3 align-self-center" src="pictures/benoit.png" alt="Generic placeholder image">
+                  <div class="media-body text-left pl-3 pb-3">
+                    <h5 class="mt-3 font-weight-bold">Le Christ cosmique</h5>
+                    Benoit, le christ cosmique est l'un de nos guides. Il participe à la croisade contre les merdias
+                    depuis le début de l'aventure. Il est la voie de la sagesse parmi les membres illuminatis.
+                    <div class="my-autor-social text-right mr-5 mt-3"><i class="fab fa-facebook"></i> <i
+                        class="fab fa-twitter-square"></i> <i class="fab fa-instagram"></i> </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade font-article" id="articles" role="tabpanel" aria-labelledby="articles-tab">
+                <div class="media">
+                  <img class="m-3 align-self-center" src="pictures/benoit.png" alt="Generic placeholder image">
+                  <div class="media-body text-left">
+                    <h5 class="mt-3 font-weight-bold">Les derniers articles du Christ cosmique</h5>
+                    <ul>
+                      <li>
+                        Personne n'a jamais marché sur la lune
+                      </li>
+                      <li>
+                        Le sida est un virus crée en laboratoire
+                      </li>
+                      <li>
+                        La Terre est plate
+                      </li>
+                      <li>
+                        Le monde est gouverné par des reptiliens
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="container my-comments mb-3">
+            <h4 class="text-left pt-4 pb-2" id="commentaires">Qu'en pensez-vous?</h4>
+
+
+
+            <div class="row">
+
+
+
+              <ul class="list-unstyled text-left pt-4 pr-4 font-article">
+                <li class="media">
+                  <img class="m-3" src="pictures/bastien.jpeg" alt="Generic placeholder image">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-weight-bold">Le grand monarque de l'homme vert</h5>
+                    Cet article est génial. Ô guide, merci de nous mener vers des pensées positives,
+                    Ô Christ cosmique emmène moi loin de chez moi
+                  </div>
+                </li>
+                <li>
+                  <hr>
+                </li>
+                <li class="media">
+                  <img class="m-3"
+                    src="https://cdn.discordapp.com/attachments/542989969917083648/555051645676027924/image0.gif"
+                    alt="Generic placeholder image">
+                  <div class="media-body">
+                    <h5 class="mt-0 font-weight-bold">Gogo le petit enfant égaré</h5>
+                    Bonjour Christ Cosmique !
+                    Merci de m'ouvrir les yeux. Grâce à toi, je vais pouvoir tuer ma famille. Tous ces gens sont
+                    des ignorants. Ils iront en enfer. Coeur avec les doigts.
+
+                    <div class="media mt-3">
+                      <a class="mr-3" href="#">
+                        <img class="m-3" src="pictures/benoit.png" alt="Generic placeholder image">
+                      </a>
+                      <div class="media-body">
+                        <h5 class="mt-0 font-weight-bold ">Le Christ cosmique</h5>
+                        Rejoins-moi copain. Tu iras au paradis !
+                      </div>
+                    </div>
+                  </div>
+
+                </li>
+                <li>
+                  <hr>
+                </li>
+
+              </ul>
+
+              <form class="col text-left pb-4">
+                <div class="form-group font-weight-bold">
+                  <label for="formGroupExampleInput">Ton prénom et nom</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Petit enfant égaré">
+                </div>
+                <div class="form-group mx-auto font-weight-bold">
+                  <label for="exampleFormControlInput1">Ton adresse email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1"
+                    placeholder="filsduchrist@findumonde.org">
+                </div>
+                <div class="form-group font-weight-bold">
+                  <label for="exampleFormControlTextarea1">Ta réponse</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1"
+                    placeholder="Commentaire sur l'article" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary col">Envoyer</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </article>
+
+
+
+    <aside class="col-xl-3 col-lg-3 d-none d-sm-none d-md-none d-lg-block"> <!--enlève l'aside pour les écrans xs sm et md -->
+      <h3>  &#x26A0; <br> Sites <br> conspirationnistes:  <br>&#x26A0; </h3>
+      <br>
+      <div class="mt-2">
+        <div class="card shadow">
+          <a href="https://www.lemonde.fr/les-decodeurs/" target="_blank"><img class="card-img-top" src="/pictures/LesDecodeurs-Logo.png" alt="décodeur"> </a>
+          <div class="card-body">
+            <p class="card-text"> Les décodeurs répand de fausses idées dans la tête des gens, faite très attention lorsque vous approcher ce site ou leur communauté</p>
+          </div>
+        </div>
+<br>
+        <div class="card shadow">
+            <a href="https://www.futura-sciences.com/" target="_blank"><img class="card-img-top" src="/pictures/Futura-logo.jpg" alt="futurama"></a>
+          <div class="card-body">
+            <p class="card-text">Site soit disant "scientifique" qui affirme notamment que la terre est ronde</p>
+          </div>
+        </div>
+<br>           
+        <div class="card shadow">
+            <a href="https://www.boiron.fr/" target="_blank"><img class="card-img-top" src="pictures/Boiron.jpg" alt="boiron"></a>
+          <div class="card-body">
+            <p class="card-text">Attention les produits homéopathiques sont un vrai danger, c'est le mal absolu</p>
+          </div>
+          <br>
+        </div>
+      </aside>
+
+
+    </div>
+  </div>
+  <!-- End création des article avec card -->
+
+
+  <!--FOOTER-->
+
+  <footer>
+
+    <!--NEWSLETTER-->
+
+    <div class="row no-gutters">
+      <div class="col my-newsletter">
+        <form class="form-inline form-inline-footer">
+          <div class="form-group p-3 w-100 d-flex justify-content-center font-article">
+            <label for="exampleInputEmail1" class="pr-3">Abonnez-vous à notre newsletter</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Indiquez votre adresse mail">
+            <button type="submit" class="btn btn-primary ml-3 my-sou">Souscrire</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!--LINKS-->
+
+    <div class="row p-3 no-gutters d-flex">
+
+      <div class="col-md-3 col-xs-12 mr-md-3 mb-sm-3 mb-md-0 font-article">
+        <ul class="list-group list-group-flush text-white">
+          <li class="list-group-item font">DERNIERS ARTICLES</li>
+          <li class="list-group-item d-flex justify-content-between align-items-center ">
+            <a class="nav-link" href="article.html#lune">Personne n'a jamais marché sur la lune</a>
+            <span class="badge badge-primary badge-pill">14</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a class="nav-link" href="article2.html#wcs">WSS : on n'est pas des pigeons</a>
+            <span class="badge badge-primary badge-pill">2</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a class="nav-link" href="article.html">Chemtrails : les avions sniffent de la poudre</a>
+          </li>
+          <li class="list-group-item"><a class="nav-link" href="article.html">WCS promo JS : un élève est filmé
+              24h/24</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 col-xs-12 mr-md-3 mb-sm-3 mb-md-0 font-article">
+        <ul class="list-group list-group-flush text-white">
+          <li class="list-group-item font">LIENS</li>
+          <li class="list-group-item"><a class="nav-link" href="index.2.html">Accueil</a></li>
+          <li class="list-group-item"><a class="nav-link" href="article.html">Complots du moment</a></li>
+          <li class="list-group-item"><a class="nav-link" href="#">Complots validés</a></li>
+          <li class="list-group-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-md-3 col-xs-12 mr-md-3 mb-sm-3 mb-md-0 font-article">
+        <ul class="list-group list-group-flush text-white">
+          <li class="list-group-item font">PARTENAIRES</li>
+          <li class="list-group-item"><a class="nav-link" href="https://www.nasa.gov/">NASA</a></li>
+          <li class="list-group-item"><a class="nav-link" href="https://www.gouvernement.fr/">Gourvenement
+              français</a></li>
+          <li class="list-group-item"><a class="nav-link" href="https://www.toulouse.fr/">Mairie de Toulouse</a></li>
+          <li class="list-group-item"><a class="nav-link"
+              href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia">Wikipedia</a></li>
+        </ul>
+      </div>
+
+
+
+      <!--SOCIAL-->
+
+      <div class="col-md-2 col-xs-12">
+        <div class="d-flex  justify-content-around">
+          <ul class="my-list">
+            <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+
+        <div>
+          <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
+        </div>
+
+      </div>
+
+
+
+      <!--ROW END-->
+    </div>
+
+    <div class="row p-3 no-gutters my-copyright">
+      <!--COPYRIGHT-->
+
+      <div class="row no-gutters mx-auto">
+        <div class="col text-white font-article text-center">
+          <div class="pb-1">&copy;ComplotsFaciles 2019</div>
+          &#x26A0; ce site a été réalisé dans le cadre d'un projet de formation, dans un but parodique. &#x26A0;
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
