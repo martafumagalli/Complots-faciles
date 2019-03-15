@@ -42,7 +42,7 @@ function memory() {
       
     
     modalFerme.onclick = function() {
-      document.getElementById("modal").innerHTML = '<div id ="modal-inner" class="modal-inner content center"><h2>Le christ cosmique te souhaite la bienvenue!</h2><img class="petit" src="https://makesylvaingreatagain.files.wordpress.com/2017/03/cropped-sylvain4prez.jpg" style=" width:100px height:100px"> <br><br><button id="modal-inner">Bienvenue mon ami !</button></div>';
+      document.getElementById("modal").innerHTML = '<div id ="modal-inner" class="modal-inner content center"><h2>Le christ cosmique te souhaite la bienvenue!</h2><img class="petit" src="https://image.jimcdn.com/app/cms/image/transf/dimension=833x10000:format=jpg/path/sf4bd355bb25ee14b/image/i8b1817e0cf8b2b4c/version/1490549180/image.jpg" style=" width:100px height:100px"> <br><br><button id="modal-inner">Bienvenue mon ami !</button></div>';
       const modalInner = document.getElementById('modal-inner');
   
   
